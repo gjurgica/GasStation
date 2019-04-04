@@ -12,7 +12,7 @@ namespace Classes
         {
             Console.WriteLine($"Driving to {place}. And take some premium.");
         }
-        public static string GetCarStats(Car car)
+        public static string GetCarStats(this Car car)
         {
             return $"Brand: {car.Brand}\nModel:{car.Model}\nColor:{car.Color}\nFuel:{car.Fuel}\nHaveKeys:{car.HaveKeys}\nIsDrivable:{car.IsDrivable}";
         }

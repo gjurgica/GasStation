@@ -16,7 +16,7 @@ namespace GasStation
             car1.StartLights();
             car1.Drive("Palermo");
             Console.WriteLine("---------------------");
-            Console.WriteLine(StaticClass.GetCarStats(car1));
+            Console.WriteLine(car1.GetCarStats());
             Console.WriteLine("---------------------");
             GasStation1.Refill(car1);
             Console.WriteLine("---------------------");
